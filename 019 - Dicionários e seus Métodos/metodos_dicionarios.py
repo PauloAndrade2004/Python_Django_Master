@@ -2,6 +2,7 @@
 meu_dicionario = {
     'Nome': 'Paulo',
     'Idade': 20,
+    'Cidade': 'São Paulo',
     'Profissão': 'Dev'
 }
 
