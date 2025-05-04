@@ -18,3 +18,12 @@ meu_dicionario = {
         'Cidade': 'São Paulo'
     }
 }
+
+# buscando o nome da pessoa que está dentro do nosso dicionario. Devemos passar o nome da chave que temos.
+print(meu_dicionario.get('Nome'))
+
+# buscando os interesses da nossa pessoa. Ele ira exibir a lista que esta dentro da nossa chave.
+print(meu_dicionario.get('Interesses'))
+
+# agora podemos buscar um Interesse expecifico da nossa pessoa. Adicionando o [] ==> Índice do nosso Interesse.
+print(meu_dicionario.get('Interesses')[0])
